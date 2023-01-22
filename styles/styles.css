@@ -1,0 +1,126 @@
+*{
+    background-color: #161616;
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    
+    
+}
+.pics{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* @media screen and (max-width: 740px){
+    .pics{
+        flex-direction: column;
+    }
+} */
+.crd{
+    box-shadow: rgba(26,205,234, 0.3) 0px 50px 100px -20px,
+    rgba(210,238,31, 0.3) 0px 30px 60px -30px;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid #8ab92d;
+
+}
+.imgcont{
+    width: 240px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 30px;
+
+    
+
+}
+.dheeraj{
+    background-image:url("../image/Dheeraj_bg.png");
+}
+.muhammed_nabeel{
+    background-image: url("../image/Muhammed_nabeel_bg.png");
+}
+.krishnaprasad{
+    background-image: url("../image/Krishnaprasad_bg.png");
+}
+.benil_jose{
+    background-image: url("../image/Benil_jose_bg.png");
+}
+.devadarsh{
+    background-image: url("../image/Devadarsh_bg.png");
+}
+.abhinav{
+    background-image: url("../image/Abhinav_bg.png");
+}
+.anna_wilson{
+    background-image: url("../image/Anna_wilson_nws_bg.png");
+}
+.diya_biju{
+    background-image: url("../image/Diya_biju_bg.png");
+}
+
+.akhina{
+    background-image: url("../image/Akhina_George_bg.png");
+}
+.anz_jo{
+    background-image: url("../image/Anz_jo_bg.png");
+}
+.milan{
+    background-image: url("../image/milan_bg.png");
+}
+.annmary{
+    background-image: url("../image/Annmary_vinod_bg.png");
+}
+.kevin{
+    background-image: url("../image/Kevin_joseph_bg.png");
+}
+.Anna_ann{
+    background-image: url("../image/Anna_ann_bg.png");
+}
+.imgcont img{
+   background: local;
+   transition: .5s ease-in-out;
+   
+}
+.imgcont img:hover,img:focus{
+    
+    transform: scale(1.1);
+    
+ }
+ .mainfnt{
+	font-family: 'Krona One', sans-serif;
+    background-color: rgba(0,0,0,0);
+}
+.desc{
+    margin: 10px;
+}
+.smed{
+    display: flex;
+    margin: 10px;
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+.ico{
+    background-color: rgba(54, 56, 49, 0.611);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+}
+i{
+    background-color: rgba(0,0,0,0);
+}
+.ico:hover i{
+   color: #161616;
+}
+.ico:hover {
+    background-color: chartreuse;
+}
